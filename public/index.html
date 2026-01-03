@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padel Game Generator</title>
+</head>
+<body>
+  <h1>Welcome to the Padel Game Generator!</h1>
+  <p>This is a placeholder homepage.</p>
+  <script>
+    // Example fetch to API
+    fetch('/api/hello')
+      .then(response => response.json())
+      .then(data => {
+        const p = document.createElement('p');
+        p.textContent = data.message;
+        document.body.appendChild(p);
+      });
+  </script>
+</body>
+</html>
